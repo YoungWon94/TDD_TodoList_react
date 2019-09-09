@@ -18,6 +18,8 @@ src/`setupTests.js` 파일 작성
     1
     
 - 테스트코드  
+    ```js
     import React from "react";
     import { render, fireEvent } from "@testing-library/react";
     import MyComponent from "../components/MyComponenet";
+    ```
