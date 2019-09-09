@@ -16,3 +16,8 @@ src/`setupTests.js` 파일 작성
 
 - 테스팅(실패) -> 코드작성 -> 테스팅(성공) -> 리팩토링  
     1
+    
+- 테스트코드
+    import React from "react";
+    import { render, fireEvent } from "@testing-library/react";
+    import MyComponent from "../components/MyComponenet";
